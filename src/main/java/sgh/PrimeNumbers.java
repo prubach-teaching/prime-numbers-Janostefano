@@ -11,9 +11,9 @@ public class PrimeNumbers {
         while (count < n) {
             if (isPrime(intToCheck)) {
                 if (count == 0) {
-                    output.append(Integer.toString(intToCheck));
+                    output.append(intToCheck);
                 } else {
-                    output.append(", ").append(Integer.toString(intToCheck));
+                    output.append(", ").append(intToCheck);
                 }
                 count++;
             }
